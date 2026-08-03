@@ -9,7 +9,7 @@ Berikut adalah panduan pemasangan sambungan SpotMi3 langkah demi langkah berdasa
 ### 1. Muat Turun Repositori
 Muat turun atau *clone* repositori ini ke komputer anda.
 
-<img width="1280" height="691" alt="0" src="https://github.com/user-attachments/assets/0da179d9-db74-4ed6-a663-3bfe2b4d51e1" />
+<img width="1920" height="1080" alt="SpotMi3" src="https://github.com/user-attachments/assets/945193c7-9d16-4109-b3be-bc7491595663" />
 
 ---
 
