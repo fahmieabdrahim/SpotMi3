@@ -2,6 +2,14 @@
 
 SpotMi3 ialah alat bantuan pintar yang direka khusus untuk memudahkan pengurusan masa dengan lebih pantas dan efisien.
 
+## ⚠️ Keperluan & Nota Penting Sebelum Mula
+* **Pelayar Rasmi:** Mesti menggunakan pelayar **Google Chrome**.
+* **Portal Sasaran:** Sambungan ini **hanya berfungsi pada web rasmi tersebut sahaja** di [https://spotme.jdn.gov.my](https://spotme.jdn.gov.my).
+* **Keadaan Halaman:** Anda perlu melog masuk ke papan pemuka di [https://spotme.jdn.gov.my/dashboard/pegawai](https://spotme.jdn.gov.my/dashboard/pegawai) dan **biarkan halaman web tersebut sentiasa terbuka**. 
+* **Fungsi Auto:** Masa dan maklumat akan dimasukkan secara automatik (*auto-fill*). Jangan tutup tab portal semasa proses pengisian berjalan.
+
+---
+
 ## 📦 Panduan Pemasangan
 
 Berikut adalah panduan pemasangan sambungan SpotMi3 langkah demi langkah berdasarkan paparan skrin yang disediakan:
@@ -61,6 +69,6 @@ Berikut adalah panduan ringkas cara mengurus dan menggunakan sambungan SpotMi3:
 
 ---
 
-* **Paparan Menu Utama:** Akses sambungan yang telah dipinkan untuk mula menggunakan tetapan borang harian dan masa.
+* **Paparan Menu Utama:** Akses sambungan yang telah dipinkan pada laman web portal untuk mula menggunakan tetapan borang harian dan pengisian masa secara automatik.
 
 <img width="1920" height="1080" alt="630301433-4a938c99-9a2a-4cc0-af99-e94dc185a511" src="https://github.com/user-attachments/assets/28c7f230-1eb6-41ea-8cc5-a2c33b123d2a" />
