@@ -51,16 +51,16 @@ Berikut adalah panduan ringkas cara mengurus dan menggunakan sambungan SpotMi3:
 
 * **Buka Menu Extensions:** Klik ikon *puzzle* di penjuru kanan atas pelayar Chrome untuk melihat senarai sambungan. Klik ikon pin supaya ikon **SpotMi3** sentiasa kelihatan pada bar alat pelayar untuk akses pantas.
 
-<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/d2c83807-f244-4501-9862-4951bff67a92" />
+<img width="1920" height="1080" alt="630301253-d2c83807-f244-4501-9862-4951bff67a92" src="https://github.com/user-attachments/assets/acd2686d-0e3f-40b8-97c2-9ef9d2249349" />
 
 ---
 
 * **Klik ikon untuk menu:**
 
-<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/e57c347c-2036-45e3-8712-94eb2b7bafd0" />
+<img width="1920" height="1080" alt="630301305-e57c347c-2036-45e3-8712-94eb2b7bafd0" src="https://github.com/user-attachments/assets/a834b99c-3769-453f-8f81-367947b5cb55" />
 
 ---
 
 * **Paparan Menu Utama:** Akses sambungan yang telah dipinkan untuk mula menggunakan tetapan borang harian dan masa.
 
-<img width="1920" height="1080" alt="8" src="https://github.com/user-attachments/assets/4a938c99-9a2a-4cc0-af99-e94dc185a511" />
+<img width="1920" height="1080" alt="630301433-4a938c99-9a2a-4cc0-af99-e94dc185a511" src="https://github.com/user-attachments/assets/28c7f230-1eb6-41ea-8cc5-a2c33b123d2a" />
