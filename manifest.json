@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "SpotMi3",
+  "version": "1.0",
+  "description": "Pembantu pintar untuk mengurus dan memproses portal JDN SpotMe secara pantas, selamat, dan sistematik",
+  
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "alarms",
+    "power",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://script.google.com/*",
+    "*://spotme.jdn.gov.my/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://spotme.jdn.gov.my/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

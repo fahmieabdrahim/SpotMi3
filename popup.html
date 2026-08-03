@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    :root { --primary: #4a90e2; --bg: #f4f7f6; --text: #333; }
+    body { width: 350px; padding: 15px; font-family: 'Segoe UI', sans-serif; font-size: 13px; background-color: var(--bg); margin: 0; }
+    h2 { margin: 0 0 15px 0; font-size: 16px; color: var(--primary); text-align: center; font-weight: bold; }
+    .card { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 15px; }
+    .section-title { font-weight: bold; margin-bottom: 10px; display: block; border-bottom: 1px solid #eee; padding-bottom: 5px; color: #555; }
+    .row { margin-bottom: 10px; }
+    label { display: block; font-size: 11px; color: #666; margin-bottom: 3px; font-weight: 600; }
+    input, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; font-size: 13px; }
+    textarea { height: 60px; resize: none; }
+    .time-list { display: flex; flex-direction: column; gap: 8px; }
+    .time-row { display: flex; justify-content: space-between; align-items: center; }
+    .time-row label { margin-bottom: 0; font-size: 12px; }
+    .time-row input { width: 110px; }
+    button { width: 100%; padding: 12px; background: var(--primary); color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; margin-top: 5px; }
+    button:hover { background: #357abd; }
+    .hidden { display: none !important; }
+    
+    /* Bahagian Bawah Status Lesen */
+    .license-footer { margin-top: 15px; padding-top: 10px; border-top: 1px solid #e0e0e0; font-size: 11px; color: #888; line-height: 1.6; }
+    .alert-banner { background: #fff3cd; border: 1px solid #ffeeba; color: #856404; padding: 8px 10px; border-radius: 6px; margin-bottom: 12px; font-size: 12px; display: none; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <h2>SPOT-Mi3</h2>
+
+  <!-- 1. BORANG PENDAFTARAN PERTAMA KALI (Kemas & Sama Lebar) -->
+  <div id="registerView" class="card hidden">
+    <span class="section-title">🔑 Pendaftaran Pengguna</span>
+    <div class="row">
+      <label>Nama:</label>
+      <input type="text" id="regName" placeholder="Nama Penuh">
+    </div>
+    <div class="row">
+      <label>E-mel:</label>
+      <input type="email" id="regEmail" placeholder="contoh@email.com">
+    </div>
+    <button id="btnSubmitReg">Daftar</button>
+  </div>
+
+  <!-- 2. MENU UTAMA ASAL -->
+  <div id="mainView" class="hidden">
+    
+    <!-- Amaran Baki 3 Hari (Jika Ada) -->
+    <div id="alertBanner" class="alert-banner"></div>
+
+    <div class="card">
+      <span class="section-title">📝 Isi Semua Maklumat (Wajib)</span>
+      <div class="row"><label>Ulasan:</label><input type="text" id="ulasan"></div>
+      <div class="row"><label>Sebab Bekerja Dari Rumah:</label><textarea id="sebab_bdr"></textarea></div>
+      <div class="row"><label>Sebab Lewat:</label><input type="text" id="sebab_lewat"></div>
+      <div class="row"><label>Sebab Tidak Cukup Jam:</label><input type="text" id="sebab_kurang_jam"></div>
+      <div class="row"><label>Catatan Tugasan:</label><textarea id="catatan_tugasan"></textarea></div>
+    </div>
+
+    <div class="card">
+      <span class="section-title">🕒 Set Masa</span>
+      <div class="time-list">
+        <div class="time-row"><label>Daftar Masuk</label><input type="time" id="time_masuk"></div>
+        <div class="time-row"><label>Daftar Keluar</label><input type="time" id="time_keluar"></div>
+        <hr style="width:100%; border: 0; border-top: 1px solid #eee; margin: 5px 0;">
+        <div class="time-row"><label>Daftar Pergerakan 1</label><input type="time" id="p1"></div>
+        <div class="time-row"><label>Daftar Pergerakan 2</label><input type="time" id="p2"></div>
+        <div class="time-row"><label>Daftar Pergerakan 3</label><input type="time" id="p3"></div>
+        <div class="time-row"><label>Daftar Pergerakan 4</label><input type="time" id="p4"></div>
+        <div class="time-row"><label>Daftar Pergerakan 5</label><input type="time" id="p5"></div>
+        <div class="time-row"><label>Daftar Pergerakan 6</label><input type="time" id="p6"></div>
+        <div class="time-row"><label>Daftar Pergerakan 7</label><input type="time" id="p7"></div>
+      </div>
+    </div>
+
+    <button id="saveBtn">Simpan Tetapan</button>
+    <div id="status" style="margin-top: 10px; font-size: 12px; color: green; text-align: center;"></div>
+
+    <!-- BAHAGIAN BAWAH MENU: TEXT NORMAL LIGHT GREY -->
+    <div class="license-footer">
+      <div>E-mel: <span id="footerEmail">-</span></div>
+      <div>Status: <span id="footerStatus">-</span></div>
+      <div>Tarikh Tamat: <span id="footerExpiry">-</span></div>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
